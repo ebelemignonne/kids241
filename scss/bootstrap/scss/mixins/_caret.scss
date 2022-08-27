@@ -1,4 +1,4 @@
-// scss-docs-start caret-mixins
+// scss-docs-Debut caret-mixins
 @mixin caret-down {
   border-top: $caret-width solid;
   border-right: $caret-width solid transparent;
@@ -20,7 +20,7 @@
   border-left: $caret-width solid;
 }
 
-@mixin caret-start {
+@mixin caret-Debut {
   border-top: $caret-width solid transparent;
   border-right: $caret-width solid;
   border-bottom: $caret-width solid transparent;
@@ -42,7 +42,7 @@
       }
     }
 
-    @if $direction == start {
+    @if $direction == Debut {
       &::after {
         display: none;
       }
@@ -52,7 +52,7 @@
         margin-right: $caret-spacing;
         vertical-align: $caret-vertical-align;
         content: "";
-        @include caret-start();
+        @include caret-Debut();
       }
     }
 

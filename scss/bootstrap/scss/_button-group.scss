@@ -26,7 +26,7 @@
 .btn-toolbar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: flex-Debut;
 
   .input-group {
     width: auto;
@@ -53,7 +53,7 @@
   > .btn:nth-child(n + 3),
   > :not(.btn-check) + .btn,
   > .btn-group:not(:first-child) > .btn {
-    @include border-start-radius(0);
+    @include border-Debut-radius(0);
   }
 }
 
@@ -61,17 +61,20 @@
 //
 // Remix the default button sizing classes into new ones for easier manipulation.
 
-.btn-group-sm > .btn { @extend .btn-sm; }
-.btn-group-lg > .btn { @extend .btn-lg; }
-
+.btn-group-sm > .btn {
+  @extend .btn-sm;
+}
+.btn-group-lg > .btn {
+  @extend .btn-lg;
+}
 
 //
 // Split button dropdowns
 //
 
 .dropdown-toggle-split {
-  padding-right: $btn-padding-x * .75;
-  padding-left: $btn-padding-x * .75;
+  padding-right: $btn-padding-x * 0.75;
+  padding-left: $btn-padding-x * 0.75;
 
   &::after,
   .dropup &::after,
@@ -79,21 +82,20 @@
     margin-left: 0;
   }
 
-  .dropstart &::before {
+  .dropDebut &::before {
     margin-right: 0;
   }
 }
 
 .btn-sm + .dropdown-toggle-split {
-  padding-right: $btn-padding-x-sm * .75;
-  padding-left: $btn-padding-x-sm * .75;
+  padding-right: $btn-padding-x-sm * 0.75;
+  padding-left: $btn-padding-x-sm * 0.75;
 }
 
 .btn-lg + .dropdown-toggle-split {
-  padding-right: $btn-padding-x-lg * .75;
-  padding-left: $btn-padding-x-lg * .75;
+  padding-right: $btn-padding-x-lg * 0.75;
+  padding-left: $btn-padding-x-lg * 0.75;
 }
-
 
 // The clickable button for toggling the menu
 // Set the same inset shadow as the :active state
@@ -106,14 +108,13 @@
   }
 }
 
-
 //
 // Vertical button groups
 //
 
 .btn-group-vertical {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-Debut;
   justify-content: center;
 
   > .btn,

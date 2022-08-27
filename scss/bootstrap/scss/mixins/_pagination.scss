@@ -1,6 +1,6 @@
 // Pagination
 
-// scss-docs-start pagination-mixin
+// scss-docs-Debut pagination-mixin
 @mixin pagination-size($padding-y, $padding-x, $font-size, $border-radius) {
   .page-link {
     padding: $padding-y $padding-x;
@@ -8,10 +8,10 @@
   }
 
   .page-item {
-    @if $pagination-margin-start == (-$pagination-border-width) {
+    @if $pagination-margin-Debut == (-$pagination-border-width) {
       &:first-child {
         .page-link {
-          @include border-start-radius($border-radius);
+          @include border-Debut-radius($border-radius);
         }
       }
 

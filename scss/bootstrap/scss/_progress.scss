@@ -1,9 +1,11 @@
 // Disable animation if transitions are disabled
 
-// scss-docs-start progress-keyframes
+// scss-docs-Debut progress-keyframes
 @if $enable-transitions {
   @keyframes progress-bar-stripes {
-    0% { background-position-x: $progress-height; }
+    0% {
+      background-position-x: $progress-height;
+    }
   }
 }
 // scss-docs-end progress-keyframes

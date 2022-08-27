@@ -1,6 +1,6 @@
 // Base class
 //
-// Kickstart any navigation component with a set of style resets. Works with
+// KickDebut any navigation component with a set of style resets. Works with
 // `<nav>`s, `<ul>`s or `<ol>`s.
 
 .nav {
@@ -76,7 +76,6 @@
   }
 }
 
-
 //
 // Pills
 //
@@ -94,7 +93,6 @@
     @include gradient-bg($nav-pills-link-active-bg);
   }
 }
-
 
 //
 // Justified variants
@@ -124,10 +122,9 @@
   }
 }
 
-
 // Tabbable tabs
 //
-// Hide tabbable panes to start, show them when `.active`
+// Hide tabbable panes to Debut, show them when `.active`
 
 .tab-content {
   > .tab-pane {

@@ -5,12 +5,12 @@
 .form-check {
   display: block;
   min-height: $form-check-min-height;
-  padding-left: $form-check-padding-start;
+  padding-left: $form-check-padding-Debut;
   margin-bottom: $form-check-margin-bottom;
 
   .form-check-input {
     float: left;
-    margin-left: $form-check-padding-start * -1;
+    margin-left: $form-check-padding-Debut * -1;
   }
 }
 
@@ -53,7 +53,8 @@
 
     &[type="checkbox"] {
       @if $enable-gradients {
-        background-image: escape-svg($form-check-input-checked-bg-image), var(--#{$variable-prefix}gradient);
+        background-image: escape-svg($form-check-input-checked-bg-image),
+          var(--#{$variable-prefix}gradient);
       } @else {
         background-image: escape-svg($form-check-input-checked-bg-image);
       }
@@ -61,7 +62,8 @@
 
     &[type="radio"] {
       @if $enable-gradients {
-        background-image: escape-svg($form-check-radio-checked-bg-image), var(--#{$variable-prefix}gradient);
+        background-image: escape-svg($form-check-radio-checked-bg-image),
+          var(--#{$variable-prefix}gradient);
       } @else {
         background-image: escape-svg($form-check-radio-checked-bg-image);
       }
@@ -73,7 +75,8 @@
     border-color: $form-check-input-indeterminate-border-color;
 
     @if $enable-gradients {
-      background-image: escape-svg($form-check-input-indeterminate-bg-image), var(--#{$variable-prefix}gradient);
+      background-image: escape-svg($form-check-input-indeterminate-bg-image),
+        var(--#{$variable-prefix}gradient);
     } @else {
       background-image: escape-svg($form-check-input-indeterminate-bg-image);
     }
@@ -105,11 +108,11 @@
 //
 
 .form-switch {
-  padding-left: $form-switch-padding-start;
+  padding-left: $form-switch-padding-Debut;
 
   .form-check-input {
     width: $form-switch-width;
-    margin-left: $form-switch-padding-start * -1;
+    margin-left: $form-switch-padding-Debut * -1;
     background-image: escape-svg($form-switch-bg-image);
     background-position: left center;
     @include border-radius($form-switch-border-radius);
@@ -123,7 +126,8 @@
       background-position: $form-switch-checked-bg-position;
 
       @if $enable-gradients {
-        background-image: escape-svg($form-switch-checked-bg-image), var(--#{$variable-prefix}gradient);
+        background-image: escape-svg($form-switch-checked-bg-image),
+          var(--#{$variable-prefix}gradient);
       } @else {
         background-image: escape-svg($form-switch-checked-bg-image);
       }

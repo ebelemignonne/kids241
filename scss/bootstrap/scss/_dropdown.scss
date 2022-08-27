@@ -2,7 +2,7 @@
 .dropup,
 .dropend,
 .dropdown,
-.dropstart {
+.dropDebut {
   position: relative;
 }
 
@@ -38,7 +38,7 @@
   }
 }
 
-// scss-docs-start responsive-breakpoints
+// scss-docs-Debut responsive-breakpoints
 // We deliberately hardcode the `bs-` prefix because we check
 // this custom property in JS to determine Popper's positioning
 
@@ -46,8 +46,8 @@
   @include media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
-    .dropdown-menu#{$infix}-start {
-      --bs-position: start;
+    .dropdown-menu#{$infix}-Debut {
+      --bs-position: Debut;
 
       &[data-bs-popper] {
         right: auto #{"/* rtl:ignore */"};
@@ -99,7 +99,7 @@
   }
 }
 
-.dropstart {
+.dropDebut {
   .dropdown-menu[data-bs-popper] {
     top: 0;
     right: 100%;
@@ -109,13 +109,12 @@
   }
 
   .dropdown-toggle {
-    @include caret(start);
+    @include caret(Debut);
     &::before {
       vertical-align: 0;
     }
   }
 }
-
 
 // Dividers (basically an `<hr>`) within the dropdown
 .dropdown-divider {

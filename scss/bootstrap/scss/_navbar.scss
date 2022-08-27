@@ -8,7 +8,6 @@
 // Navbar position
 // Navbar themes
 
-
 // Navbar
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
@@ -48,7 +47,6 @@
   }
 }
 
-
 // Navbar brand
 //
 // Used for brand, project, or site names.
@@ -66,7 +64,6 @@
     text-decoration: if($link-hover-decoration == underline, none, null);
   }
 }
-
 
 // Navbar nav
 //
@@ -89,7 +86,6 @@
   }
 }
 
-
 // Navbar text
 //
 //
@@ -98,7 +94,6 @@
   padding-top: $nav-link-padding-y;
   padding-bottom: $nav-link-padding-y;
 }
-
 
 // Responsive navbar
 //
@@ -154,7 +149,7 @@
   overflow-y: auto;
 }
 
-// scss-docs-start navbar-expand-loop
+// scss-docs-Debut navbar-expand-loop
 // Generate series of `.navbar-expand-*` responsive classes for configuring
 // where your navbar collapses.
 .navbar-expand {
@@ -166,7 +161,7 @@
     &#{$infix} {
       @include media-breakpoint-up($next) {
         flex-wrap: nowrap;
-        justify-content: flex-start;
+        justify-content: flex-Debut;
 
         .navbar-nav {
           flex-direction: row;
@@ -198,7 +193,6 @@
   }
 }
 // scss-docs-end navbar-expand-loop
-
 
 // Navbar themes
 //
@@ -249,7 +243,7 @@
 
     a,
     a:hover,
-    a:focus  {
+    a:focus {
       color: $navbar-light-active-color;
     }
   }
