@@ -238,7 +238,7 @@ h6,
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/img8.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -350,6 +350,12 @@ h6,
 }
 
 /*** Team ***/
+.enseignant{
+  align-items: center;
+  justify-content: center;
+}
+
+
 .team-item .team-text {
   position: absolute;
   width: 250px;
@@ -370,24 +376,24 @@ h6,
   border-color: var(--bs-info);
 }
 
-/*** Testimonial ***/
-.testimonial-carousel {
+/*** Témoignage ***/
+.Témoignage-carousel {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
 @media (min-width: 576px) {
-  .testimonial-carousel {
+  .Témoignage-carousel {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 
-.testimonial-carousel .testimonial-item .border {
+.Témoignage-carousel .Témoignage-item .border {
   border: 1px dashed rgba(0, 185, 142, 0.3) !important;
 }
 
-.testimonial-carousel .owl-nav {
+.Témoignage-carousel .owl-nav {
   position: absolute;
   width: 100%;
   height: 45px;
@@ -399,8 +405,8 @@ h6,
   z-index: 1;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
+.Témoignage-carousel .owl-nav .owl-prev,
+.Témoignage-carousel .owl-nav .owl-next {
   position: relative;
   width: 45px;
   height: 45px;
@@ -414,8 +420,8 @@ h6,
   transition: 0.5s;
 }
 
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
+.Témoignage-carousel .owl-nav .owl-prev:hover,
+.Témoignage-carousel .owl-nav .owl-next:hover {
   background: var(--dark);
 }
 

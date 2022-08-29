@@ -50,8 +50,8 @@
     ],
   });
 
-  // Testimonials carousel
-  $(".testimonial-carousel").owlCarousel({
+  // Témoignages carousel
+  $(".Témoignage-carousel").owlCarousel({
     autoplay: true,
     smartSpeed: 1000,
     margin: 24,
