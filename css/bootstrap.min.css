@@ -6826,7 +6826,7 @@ fieldset:disabled .btn {
 .text-reset {
   color: inherit !important;
 }
-.bg-primary {
+.bg-danger {
   background-color: #fe5d37 !important;
 }
 .bg-secondary {
