@@ -204,7 +204,7 @@
                   <img class="img-fluid" src="img/wordpress.png" alt="image" />
                 </div>
                 <div class="bg-light rounded p-4 pt-5 mt-n5">
-                  <a class="d-block text-center h3 mt-3 mb-4" href=""
+                  <a class="d-block text-center h3 mt-3 mb-4" href="wordpress.html"
                     >Word press</a
                   >
                   <div
@@ -257,7 +257,7 @@
                   <img class="img-fluid" src="img/img4.jpg" alt="" />
                 </div>
                 <div class="bg-light rounded p-4 pt-5 mt-n5">
-                  <a class="d-block text-center h3 mt-3 mb-4" href=""
+                  <a class="d-block text-center h3 mt-3 mb-4" href="designer.html"
                     >Designer</a
                   >
                   <div
@@ -310,7 +310,7 @@
                   <img class="img-fluid" src="img/img5.jpg" alt="image" />
                 </div>
                 <div class="bg-light rounded p-4 pt-5 mt-n5">
-                  <a class="d-block text-center h3 mt-3 mb-4" href=""
+                  <a class="d-block text-center h3 mt-3 mb-4" href="maquettage.html"
                     >Maquettage et Prototypage</a
                   >
                   <div
@@ -362,7 +362,7 @@
       </div>-->
       <!-- Classes Fin -->
 
-      <!-- Appointment Debut -->
+       <!-- Appointment Debut -->
       <div class="container-xxl py-5">
         <div class="container">
           <div class="bg-light rounded">
@@ -372,7 +372,7 @@
                   class="h-100 d-flex flex-column justify-content-center p-5"
                 >
                   <h1 class="mb-4">Prendre un rendez-vous</h1>
-                  <form>
+                  <form method="POST" action="https://formspree.io/f/mvoyoqpg">
                     <div class="row g-3">
                       <div class="col-sm-6">
                         <div class="form-floating">
@@ -380,6 +380,7 @@
                             type="text"
                             class="form-control border-0"
                             id="gname"
+                            name="name"
                             placeholder="Nom du tuteur"
                           />
                           <label for="gname">Nom du tuteur</label>
@@ -391,6 +392,7 @@
                             type="email"
                             class="form-control border-0"
                             id="gmail"
+                            name="email"
                             placeholder="Email du tuteur"
                           />
                           <label for="gmail">Email du tuteur</label>
@@ -402,6 +404,7 @@
                             type="text"
                             class="form-control border-0"
                             id="cname"
+                            name="cname"
                             placeholder="Nom de l’enfant"
                           />
                           <label for="cname">Nom de l’enfant</label>
@@ -413,6 +416,7 @@
                             type="text"
                             class="form-control border-0"
                             id="cage"
+                            name="cage"
                             placeholder="Age de l’enfant"
                           />
                           <label for="cage">Age de l’enfant</label>
@@ -424,6 +428,7 @@
                             class="form-control border-0"
                             placeholder="Leave a message here"
                             id="message"
+                            name="message"
                             style="height: 100px"
                           ></textarea>
                           <label for="message">Message</label>
@@ -458,7 +463,7 @@
           </div>
         </div>
       </div>
-      <!-- Appointment End -->
+      <!-- Appointment Fin -->
 
       <!-- Témoignage Debut -->
       <div class="container-xxl py-5">
